@@ -3,8 +3,9 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 // import Cursor from './components/Cursor'
-
-
+import LandingPage from './components/IntroPage'
+import Navbar from './components/Navbar'
+import HomePage from './Pages/MAinPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,9 @@ function App() {
   return (
     <>
       {/* <Cursor/> */}
-      
+      {/* <Navbar/>
+      <LandingPage/> */}
+      <HomePage/>
     </>
   )
 }
