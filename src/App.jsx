@@ -12,9 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <Cursor/> */}
-      {/* <Navbar/>
-      <LandingPage/> */}
+    
       <HomePage/>
     </>
   )
