@@ -36,9 +36,9 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">Greens all over</p>
+      <p className="font-bold md:text-4xl text-xl text-white">Samay Raina</p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature's beauty. It's the perfect place to relax, unwind, and enjoy life.
+      "Chess is like life"
       </p>
     </div>
   );
