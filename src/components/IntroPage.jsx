@@ -5,6 +5,7 @@ import Button from './Button';
 import Lottie from 'react-lottie';
 import animationData from '../assets/Animations/StudioLight.json';
 
+
 const LandingPage = () => {
   const { scrollY } = useViewportScroll();
   const taglineY = useTransform(scrollY, [0, 300], [0, -30]);
