@@ -5,8 +5,7 @@ import './App.css'
 // import Cursor from './components/Cursor'
 import LandingPage from './components/IntroPage'
 import Navbar from './components/Navbar'
-import HomePage from './Pages/MAinPage'
-
+import HomePage from './Pages/MainPage'
 function App() {
   const [count, setCount] = useState(0)
 
