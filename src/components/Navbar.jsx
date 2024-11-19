@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from './TooltipMedia';
-import logo from '/src/assets/Images/logo4.png';
+import logo from '../assets/Images/logo4.png';
 
 const Navbar = () => {
   return (
