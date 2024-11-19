@@ -3,6 +3,28 @@ import React from "react";
 import { Timeline } from "../components/Timeline";
 import { cn } from "./LayoutUtil";
 
+import canva1 from "../assets/Images/Canva1.png";
+import canva2 from "../assets/Images/Canva2.png";
+import canva3 from "../assets/Images/Canva3.png";
+import canva4 from "../assets/Images/Canva4.png";
+
+import flipKart1 from "../assets/Images/FlipKart1.png";
+import flipKart2 from "../assets/Images/FlipKart2.png";
+import flipKart3 from "../assets/Images/FlipKart3.png";
+import flipKart4 from "../assets/Images/FlipKart4.png";
+
+import brand1 from "../assets/Images/Brand1.png";
+import brand2 from "../assets/Images/Brand2.png";
+import brand3 from "../assets/Images/Brand3.png";
+import brand4 from "../assets/Images/Brand4.png";
+
+
+
+
+
+
+
+
 export function TimelineDemo() {
   const data = [
     {
@@ -15,25 +37,25 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="src\assets\Images\Canva1.png"
+              src={canva1}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Canva2.png"
+              src={canva2}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Canva3.png"
+              src={canva3}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Canva4.png"
+              src= {canva4}
               alt="startup template"
               width={500}
               height={500}
@@ -56,25 +78,25 @@ export function TimelineDemo() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="src\assets\Images\FlipKart1.png"
+              src={flipKart1}
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\FlipKart2.png"
+              src={flipKart2}
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\FlipKart3.png"
+              src={flipKart3}
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\FlipKart4.png"
+              src={flipKart4}
               alt="cards template"
               width={500}
               height={500}
@@ -115,25 +137,25 @@ export function TimelineDemo() {
           </div> */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="src\assets\Images\Brand1.png"
+              src={brand1}
               alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Brand2.png"
+              src={brand2}
               alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Brand3.png"
+              src={brand3}
               alt="bento template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
             <img
-              src="src\assets\Images\Brand4.png"
+              src={brand4}
               alt="cards template"
               width={500}
               height={500}

@@ -1,8 +1,22 @@
 
 
 import React from "react";
-// import { LayoutGrid } from "./layout-grid"; // Adjust import path if needed
+
 import { LayoutGrid } from "./LayoutGrid";
+
+
+import Aakash from "../assets/Images/Aakash.png";
+import Zakir from "../assets/Images/ZakirKhan.png";
+import Samay from "../assets/Images/Samay.png";
+import Kenny from "../assets/Images/Kenny.png";
+
+
+
+
+
+
+
+
 export function LayoutGridDemo() {
   return (
     <div id = "content-section" className="h-screen py-20 w-full">
@@ -62,28 +76,28 @@ const cards = [
     className: "md:col-span-2",
     
     thumbnail:
-      "src/assets/Images/ZakirKhan.png",
+      Zakir,
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "src/assets/Images/Aakash.png",
+      Aakash,
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "src/assets/Images/Samay.png",
+      Samay,
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "src/assets/Images/Kenny.png",
+      Kenny,
   },
 ];
 

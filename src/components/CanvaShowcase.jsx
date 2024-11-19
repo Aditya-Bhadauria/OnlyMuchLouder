@@ -1,5 +1,6 @@
 import React from "react";
 import { ContainerScroll } from "./IpadScroll";
+import zakirKhan from "../assets/Images/ZakirKhan.png";
 
 export function HeroScrollDemo() {
   return (
@@ -17,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src="src/assets/Images/ZakirKhan.png"
+          src={zakirKhan}
           alt="hero"
           height={720}
           width={1400}
