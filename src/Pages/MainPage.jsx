@@ -8,6 +8,7 @@ import HeroScrollDemo from '../components/CanvaShowcase';
 import { LayoutGridDemo } from '../components/Creators';
 import { TimelineDemo } from '../components/Brands';
 import Cursor from '../components/Cursor';
+import { InfiniteMovingCardsDemo } from '../components/Reviews';
 
 
 
@@ -21,7 +22,7 @@ const HomePage = () => {
       <HeroScrollDemo />
       <LayoutGridDemo />
       <TimelineDemo />
-      
+      <InfiniteMovingCardsDemo/>
     </div>
   );
 };

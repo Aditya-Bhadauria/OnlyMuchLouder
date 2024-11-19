@@ -57,7 +57,7 @@ const LandingPage = () => {
         >
           <span style={{ opacity: 0.8 }}>We fuel Pop Culture</span>
         </motion.div>
-
+      
         {/* Scroll Down Button */}
         <div className="pt-4">
           <Button onClick={scrollToContent} />

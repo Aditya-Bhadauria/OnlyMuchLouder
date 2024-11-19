@@ -16,7 +16,7 @@ const SkeletonOne = () => {
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">Zakir Khan</p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and bustle of city life.
+      Zakir Khan is a celebrated Indian stand-up comedian and poet known for his witty storytelling and the catchphrase "Sakht Launda."
       </p>
     </div>
   );
@@ -25,9 +25,9 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">House above the clouds</p>
+      <p className="font-bold md:text-4xl text-xl text-white">Aakash Gupta</p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a unique living experience. It's a place where the sky meets home, and tranquility is a way of life.
+      Aakash Gupta is a popular Indian comedian recognized for his energetic performances and observational comedy on everyday life.
       </p>
     </div>
   );
@@ -38,7 +38,7 @@ const SkeletonThree = () => {
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">Samay Raina</p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      "Chess is like life"
+      Samay Raina is an Indian stand-up comedian and YouTuber famous for blending humor with his passion for chess, making him a unique figure in the comedy circuit.
       </p>
     </div>
   );
@@ -47,9 +47,9 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold md:text-4xl text-xl text-white">Rivers are serene</p>
+      <p className="font-bold md:text-4xl text-xl text-white">Kenny Sebastian</p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life.
+      Kenny Sebastian is a versatile Indian comedian and filmmaker known for his clean humor, musical comedy, and observational jokes on middle-class life.
       </p>
     </div>
   );

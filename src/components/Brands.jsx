@@ -48,7 +48,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Videos we Produced as The latest Flipkart Campaign
+            Videos we Produced for The latest Flipkart Campaign
           </p>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
