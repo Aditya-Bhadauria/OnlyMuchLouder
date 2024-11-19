@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from './TooltipMedia';
-
+import logo from '../assets/Images/logo4.png'; // Import the image
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* Logo Image */}
       <div>
         <img
-          src="src/assets/Images/logo4.png" // Update with the actual logo path
+          src={logo} // Update with the actual logo path
           alt="Organization Logo"
           className="w-24 h-auto md:w-32" // Adjust width as needed for different screen sizes
         />
