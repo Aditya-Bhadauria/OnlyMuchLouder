@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from './TooltipMedia';
-import logo from '../assets/Images/logo4.png';
+import logo from '/src/assets/Images/logo4.png';
 
 const Navbar = () => {
   return (
@@ -14,13 +14,7 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Contact Us Button */}
-      {/* <a
-        href="#contact"
-        className="px-3 py-2 text-white bg-black rounded-full hover:bg-purple-800 transition duration-300 text-sm md:text-base"
-      >
-        Contact Us
-      </a> */}
+      
       <Tooltip />
     </nav>
   );
