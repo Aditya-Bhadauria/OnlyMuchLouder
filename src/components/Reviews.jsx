@@ -28,7 +28,7 @@ export function InfiniteMovingCardsDemo() {
       </div>
 
       {/* Infinite moving cards section */}
-      <InfiniteMovingCards items={testimonials} direction="right" speed="medium" />
+      <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>
   );
 }
